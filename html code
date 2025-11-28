@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - Lab 3</title>
+    <link rel="stylesheet" href="lab 3 .css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <div class="logo">Portfolio</div>
+
+    <nav>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section id="hero" class="hero">
+    <div class="hero-text">
+        <h1>Hello, I'm <span class="highlight">Satyam</span></h1>
+        <h2 class="animated-role">Frontend Developer</h2>
+        <p>I design clean, modern, and responsive websites using HTML, CSS, and JavaScript.</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </div>
+
+    <div class="hero-img">
+        <img src="profile photo.jpg" alt="Profile photo">
+    </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about" class="about">
+    <h2 class="section-title">About Me</h2>
+
+    <div class="about-content">
+        <img src="profile photo.jpg" alt="About photo">
+
+        <div>
+            <p>
+                I'm a passionate frontend developer who loves turning ideas into beautiful, user-friendly websites.
+                I specialize in responsive design, modern layouts, and creating engaging user experiences.
+            </p>
+            <p>
+                My goal is to build visually appealing projects while keeping the code clean, scalable, and efficient.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- SKILLS SECTION -->
+<section id="skills" class="skills">
+    <h2 class="section-title">My Skills</h2>
+
+    <div class="skills-grid">
+        <div class="skill-card">HTML5</div>
+        <div class="skill-card">CSS3</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">Bootstrap</div>
+        <div class="skill-card">Git & GitHub</div>
+        <div class="skill-card">Responsive Design</div>
+    </div>
+</section>
+
+<!-- PROJECTS SECTION -->
+<section id="projects" class="projects">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="project-grid">
+
+        <div class="project-card">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Project 1">
+            <h3>Portfolio Website</h3>
+            <p>A responsive portfolio using Flexbox, Grid, and CSS animations.</p>
+        </div>
+
+        <div class="project-card">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f" alt="Project 2">
+            <h3>Travel Website</h3>
+            <p>Modern UI for a travel agency with tour cards and inquiry form.</p>
+        </div>
+
+        <div class="project-card">
+            <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d" alt="Project 3">
+            <h3>Food Delivery UI</h3>
+            <p>Landing page for a food delivery app with menu cards and filters.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="contact">
+    <h2 class="section-title">Contact Me</h2>
+
+    <form class="contact-form">
+        <label>Name</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <label>Message</label>
+        <textarea rows="4" placeholder="Type your message..." required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2025 My Portfolio | Made with ❤️ | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
